@@ -51,7 +51,8 @@ var pprn = {
   '4/4': 75,
   '4/6': 87,
   '4/7': 88,
-  '4/10': 90};
+  '4/10': 90,
+  '4/11': 95};
 
 drow(pprn);
 
@@ -80,7 +81,7 @@ function drow(pprn) {
   var ctx = document.getElementById("lineChart").getContext("2d");
   var options = {
     scaleOverride : true,
-    scaleSteps : 10,
+    scaleSteps : 13,
     scaleStepWidth : 10,
     scaleStartValue : 0,
     scaleLabel: "<%=value%> 点"
